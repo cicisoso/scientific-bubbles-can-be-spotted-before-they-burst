@@ -1,0 +1,17 @@
+definition,crash_threshold,n,rate
+"constant-source, run-up>=1.5, >=200 papers (main)",0.3,350,0.6228571428571429
+"constant-source, run-up>=1.5, >=200 papers (main)",0.4,350,0.4142857142857143
+"constant-source, run-up>=1.5, >=200 papers (main)",0.5,350,0.2342857142857143
+"constant-source, run-up>=2, >=300 papers",0.3,104,0.7788461538461539
+"constant-source, run-up>=2, >=300 papers",0.4,104,0.5865384615384616
+"constant-source, run-up>=2, >=300 papers",0.5,104,0.4326923076923077
+"stable-core share, run-up>=2 (no constant-source panel)",0.3,389,0.7506426735218509
+"stable-core share, run-up>=2 (no constant-source panel)",0.4,389,0.5912596401028277
+"stable-core share, run-up>=2 (no constant-source panel)",0.5,389,0.39845758354755784
+excluding topics with < 50% English papers,0.4,335,0.3940298507462687
+excluding top-source share > 30% at the peak,0.4,297,0.4074074074074074
+peaks 1990-2015 only,0.4,288,0.4027777777777778
+excluding booms led by conference-proceedings serials,0.4,292,0.3972602739726027
+diffuse booms only (top-3 venues < 50% of the run-up),0.4,195,0.26153846153846155
+venue-concentrated booms only (top-3 venues >= 50% of the run-up),0.4,155,0.6064516129032258
+fixed source weights (booms that remain booms; crash measured on the fixed-weight index),0.4,152,0.3618421052631579

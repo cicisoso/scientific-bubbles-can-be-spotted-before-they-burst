@@ -1,0 +1,72 @@
+{
+  "pdf": "/Users/liuhao/research/sos/bubbles/fig/out/fig5.pdf",
+  "auditable": true,
+  "verdict": "REVIEW REQUIRED",
+  "page_count": 1,
+  "visible_text_box_count": 87,
+  "text_trace_count": 88,
+  "stroke_path_count": 67,
+  "filled_region_count": 615,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 2,
+    "contained_fill_overlays": 0,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "COVID-19",
+      "text_bbox": [
+        395.5849304199219,
+        69.2837905883789,
+        420.9517822265625,
+        74.7837905883789
+      ],
+      "other_text": null,
+      "other_bbox": [
+        393.8945617675781,
+        70.00218200683594,
+        396.2226257324219,
+        72.33024597167969
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        415
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "COVID-19 and",
+      "text_bbox": [
+        412.6816711425781,
+        31.224681854248047,
+        448.75152587890625,
+        36.72468185424805
+      ],
+      "other_text": null,
+      "other_bbox": [
+        446.57537841796875,
+        34.42778015136719,
+        449.3989562988281,
+        37.25135803222656
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        255
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# raw and bulk data (re-downloadable; see README)
+data/awards/
+data/tmp/
+# LaTeX build products and compiled manuscript (the submission package holds the reviewed copies)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.bbl
+paper/*.blg
+paper/*.pdf
+paper/*.docx
+paper/main_pandoc.tex
+paper/figures/
+# manuscript text, cover letter and reviewer suggestions are withheld until the authors post a preprint
+paper/sections/
+submission/science/manuscript/
+submission/science/cover_letter.*
+submission/science/suggested_reviewers.md
+submission/science/statements.md
+# figure QA overlays
+fig/out/*.alignment.svg
+fig/out/*.collision-audit.pdf
+# python
+__pycache__/
+*.pyc
+.DS_Store
+logs/

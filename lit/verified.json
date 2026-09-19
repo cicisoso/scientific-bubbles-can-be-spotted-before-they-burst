@@ -1,0 +1,322 @@
+{
+ "johansen2000crashes": {
+  "status": "book"
+ },
+ "sornette2003stock": {
+  "status": "book"
+ },
+ "kindleberger2005manias": {
+  "status": "book"
+ },
+ "shiller2000exuberance": {
+  "status": "book"
+ },
+ "dedehayir2016hype": {
+  "status": "ok",
+  "doi": "10.1016/j.techfore.2016.04.005",
+  "title": "The hype cycle model: A review and future directions",
+  "year": 2016,
+  "container": "Technological Forecasting and Social Change",
+  "type": "journal-article"
+ },
+ "crane1969fashion": {
+  "status": "ok",
+  "doi": "10.2307/799952",
+  "title": "Fashion in Science: Does It Exist?",
+  "year": 1969,
+  "container": "Social Problems",
+  "type": "journal-article"
+ },
+ "fujimura1988bandwagon": {
+  "status": "ok",
+  "doi": "10.2307/800622",
+  "title": "The Molecular Biological Bandwagon in Cancer Research: Where Social Worlds Meet",
+  "year": 1988,
+  "container": "Social Problems",
+  "type": "journal-article"
+ },
+ "abrahamson1996fashion": {
+  "status": "ok",
+  "doi": "10.2307/258636",
+  "title": "Management Fashion",
+  "year": 1996,
+  "container": "The Academy of Management Review",
+  "type": "journal-article"
+ },
+ "bikhchandani1992fads": {
+  "status": "ok",
+  "doi": "10.1086/261849",
+  "title": "A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades",
+  "year": 1992,
+  "container": "Journal of Political Economy",
+  "type": "journal-article"
+ },
+ "banerjee1992herd": {
+  "status": "ok",
+  "doi": "10.2307/2118364",
+  "title": "A Simple Model of Herd Behavior",
+  "year": 1992,
+  "container": "The Quarterly Journal of Economics",
+  "type": "journal-article"
+ },
+ "lorenzspreen2019attention": {
+  "status": "ok",
+  "doi": "10.1038/s41467-019-09311-w",
+  "title": "Accelerating dynamics of collective attention",
+  "year": 2019,
+  "container": "Nature Communications",
+  "type": "journal-article"
+ },
+ "wu2007novelty": {
+  "status": "ok",
+  "doi": "10.1073/pnas.0704916104",
+  "title": "Novelty and collective attention",
+  "year": 2007,
+  "container": "Proceedings of the National Academy of Sciences",
+  "type": "journal-article"
+ },
+ "candia2019memory": {
+  "status": "ok",
+  "doi": "10.1038/s41562-018-0474-5",
+  "title": "The universal decay of collective memory and attention",
+  "year": 2018,
+  "container": "Nature Human Behaviour",
+  "type": "journal-article"
+ },
+ "fortunato2018science": {
+  "status": "ok",
+  "doi": "10.1126/science.aao0185",
+  "title": "Science of science",
+  "year": 2018,
+  "container": "Science",
+  "type": "journal-article"
+ },
+ "jin2021prizes": {
+  "status": "ok",
+  "doi": "10.1038/s41467-021-25712-2",
+  "title": "Scientific prizes and the extraordinary growth of scientific topics",
+  "year": 2021,
+  "container": "Nature Communications",
+  "type": "journal-article"
+ },
+ "small2006growth": {
+  "status": "ok",
+  "doi": "10.1007/s11192-006-0132-y",
+  "title": "Tracking and predicting growth areas in science",
+  "year": 2006,
+  "container": "Scientometrics",
+  "type": "journal-article"
+ },
+ "rzhetsky2015choosing": {
+  "status": "ok",
+  "doi": "10.1073/pnas.1509757112",
+  "title": "Choosing experiments to accelerate collective discovery",
+  "year": 2015,
+  "container": "Proceedings of the National Academy of Sciences",
+  "type": "journal-article"
+ },
+ "foster2015tradition": {
+  "status": "ok",
+  "doi": "10.1177/0003122415601618",
+  "title": "Tradition and Innovation in Scientists\u2019 Research Strategies",
+  "year": 2015,
+  "container": "American Sociological Review",
+  "type": "journal-article"
+ },
+ "uzzi2013atypical": {
+  "status": "ok",
+  "doi": "10.1126/science.1240474",
+  "title": "Atypical Combinations and Scientific Impact",
+  "year": 2013,
+  "container": "Science",
+  "type": "journal-article"
+ },
+ "jia2017interest": {
+  "status": "ok",
+  "doi": "10.1038/s41562-017-0078",
+  "title": "Quantifying patterns of research-interest evolution",
+  "year": 2017,
+  "container": "Nature Human Behaviour",
+  "type": "journal-article"
+ },
+ "zeng2019switch": {
+  "status": "ok",
+  "doi": "10.1038/s41467-019-11401-8",
+  "title": "Increasing trend of scientists to switch between topics",
+  "year": 2019,
+  "container": "Nature Communications",
+  "type": "journal-article"
+ },
+ "hill2025pivot": {
+  "status": "ok",
+  "doi": "10.1038/s41586-025-09048-1",
+  "title": "The pivot penalty in research",
+  "year": 2025,
+  "container": "Nature",
+  "type": "journal-article"
+ },
+ "azoulay2019funeral": {
+  "status": "ok",
+  "doi": "10.1257/aer.20161574",
+  "title": "Does Science Advance One Funeral at a Time?",
+  "year": 2019,
+  "container": "American Economic Review",
+  "type": "journal-article"
+ },
+ "chu2021canonical": {
+  "status": "ok",
+  "doi": "10.1073/pnas.2021636118",
+  "title": "Slowed canonical progress in large fields of science",
+  "year": 2021,
+  "container": "Proceedings of the National Academy of Sciences",
+  "type": "journal-article"
+ },
+ "park2023disruptive": {
+  "status": "ok",
+  "doi": "10.1038/s41586-022-05543-x",
+  "title": "Papers and patents are becoming less disruptive over time",
+  "year": 2023,
+  "container": "Nature",
+  "type": "journal-article"
+ },
+ "ioannidis2022covidization": {
+  "status": "ok",
+  "doi": "10.1073/pnas.2204074119",
+  "title": "Massive covidization of research citations and the citation elite",
+  "year": 2022,
+  "container": "Proceedings of the National Academy of Sciences",
+  "type": "journal-article"
+ },
+ "fang2012misconduct": {
+  "status": "ok",
+  "doi": "10.1073/pnas.1212247109",
+  "title": "Misconduct accounts for the majority of retracted scientific publications",
+  "year": 2012,
+  "container": "Proceedings of the National Academy of Sciences",
+  "type": "journal-article"
+ },
+ "yeoteh2021covid": {
+  "status": "ok",
+  "doi": "10.1080/08989621.2020.1782203",
+  "title": "An alarming retraction rate for scientific publications on Coronavirus Disease 2019 (COVID-19)",
+  "year": 2020,
+  "container": "Accountability in Research",
+  "type": "journal-article"
+ },
+ "intemann2022hype": {
+  "status": "ok",
+  "doi": "10.1017/can.2020.45",
+  "title": "Understanding the Problem of \u201cHype\u201d: Exaggeration, Values, and Trust in Science",
+  "year": 2020,
+  "container": "Canadian Journal of Philosophy",
+  "type": "journal-article"
+ },
+ "milojevic2018temporary": {
+  "status": "ok",
+  "doi": "10.1073/pnas.1800478115",
+  "title": "Changing demographics of scientific careers: The rise of the temporary workforce",
+  "year": 2018,
+  "container": "Proceedings of the National Academy of Sciences",
+  "type": "journal-article"
+ },
+ "priem2022openalex": {
+  "status": "book"
+ },
+ "waltman2012classification": {
+  "status": "ok",
+  "doi": "10.1002/asi.22748",
+  "title": "A new methodology for constructing a publication\u2010level classification system of science",
+  "year": 2012,
+  "container": "Journal of the American Society for Information Science and Technology",
+  "type": "journal-article"
+ },
+ "bornmann2015growth": {
+  "status": "ok",
+  "doi": "10.1002/asi.23329",
+  "title": "Growth rates of modern science: A bibliometric analysis based on the number of publications and cited references",
+  "year": 2015,
+  "container": "Journal of the Association for Information Science and Technology",
+  "type": "journal-article"
+ },
+ "wang2021science": {
+  "status": "ok",
+  "doi": "10.1017/9781108610834",
+  "title": "The Science of Science",
+  "year": 2021,
+  "container": "",
+  "type": "monograph"
+ },
+ "sinatra2016impact": {
+  "status": "ok",
+  "doi": "10.1126/science.aaf5239",
+  "title": "Quantifying the evolution of individual scientific impact",
+  "year": 2016,
+  "container": "Science",
+  "type": "journal-article"
+ },
+ "evans2008narrowing": {
+  "status": "ok",
+  "doi": "10.1126/science.1150473",
+  "title": "Electronic Publication and the Narrowing of Science and Scholarship",
+  "year": 2008,
+  "container": "Science",
+  "type": "journal-article"
+ },
+ "petersen2019methods": {
+  "status": "ok",
+  "doi": "10.1016/j.respol.2019.04.009",
+  "title": "Methods to account for citation inflation in research evaluation",
+  "year": 2019,
+  "container": "Research Policy",
+  "type": "journal-article"
+ },
+ "salganik2006experimental": {
+  "status": "ok",
+  "doi": "10.1126/science.1121066",
+  "title": "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market",
+  "year": 2006,
+  "container": "Science",
+  "type": "journal-article"
+ },
+ "merton1968matthew": {
+  "status": "ok",
+  "doi": "10.1126/science.159.3810.56",
+  "title": "The Matthew Effect in Science",
+  "year": 1968,
+  "container": "Science",
+  "type": "journal-article"
+ },
+ "kuhn2012structure": {
+  "status": "book"
+ },
+ "pedersen2014bubbles": {
+  "status": "ok",
+  "doi": "10.1007/s13347-013-0142-7",
+  "title": "Science Bubbles",
+  "year": 2013,
+  "container": "Philosophy &amp; Technology",
+  "type": "journal-article"
+ },
+ "brainard2018retractions": {
+  "status": "book"
+ },
+ "ke2015sleeping": {
+  "status": "ok",
+  "doi": "10.1073/pnas.1424329112",
+  "title": "Defining and identifying Sleeping Beauties in science",
+  "year": 2015,
+  "container": "Proceedings of the National Academy of Sciences",
+  "type": "journal-article"
+ },
+ "wang2013quantifying": {
+  "status": "ok",
+  "doi": "10.1126/science.1237825",
+  "title": "Quantifying Long-Term Scientific Impact",
+  "year": 2013,
+  "container": "Science",
+  "type": "journal-article"
+ },
+ "retractionwatch2023": {
+  "status": "book"
+ }
+}

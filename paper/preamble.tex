@@ -1,0 +1,19 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{times}
+\usepackage{textcomp}
+\usepackage[numbers,sort&compress,round]{natbib}
+\renewcommand{\citenumfont}[1]{\textit{#1}}
+\bibpunct{(}{)}{,~}{n}{}{,}
+\usepackage{graphicx,booktabs,setspace,xcolor,caption,amsmath,float,url,pdflscape}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lineno}
+\captionsetup{font=small,labelfont=bf,singlelinecheck=false}
+\doublespacing
+\graphicspath{{../fig/out/}}
+\input{macros}
+\input{title}
+\renewcommand{\refname}{References and Notes}
+\renewcommand{\figurename}{Fig.}
+\newcommand{\figS}[1]{fig.~S#1}
+\newcommand{\tabS}[1]{table~S#1}

@@ -1,0 +1,48 @@
+{
+  "pdf": "out/figS4.pdf",
+  "auditable": true,
+  "verdict": "REVIEW REQUIRED",
+  "page_count": 1,
+  "visible_text_box_count": 81,
+  "text_trace_count": 81,
+  "stroke_path_count": 305,
+  "filled_region_count": 295,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 1,
+    "contained_fill_overlays": 3,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "Soft landing",
+      "text_bbox": [
+        120.9770736694336,
+        25.62191390991211,
+        150.02340698242188,
+        31.12191390991211
+      ],
+      "other_text": null,
+      "other_bbox": [
+        40.06974411010742,
+        17.543304443359375,
+        147.9606475830078,
+        63.524688720703125
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 1,
+    "exemptions": 1
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 495.36,
+      "height_pt": 260.64
+    },
+    "panels": [
+      {
+        "id": "a",
+        "bbox_pt": [
+          116.4096,
+          33.8832,
+          284.5144739495799,
+          242.3952
+        ],
+        "grid_id": "matplotlib-grid-1",
+        "row_start": 0,
+        "row_stop": 1,
+        "col_start": 0,
+        "col_stop": 1,
+        "panel_label": "a",
+        "panel_label_anchor_pt": [
+          110.40959999999997,
+          245.39520000000002
+        ]
+      },
+      {
+        "id": "b",
+        "bbox_pt": [
+          344.2282487394958,
+          33.8832,
+          490.4064000000001,
+          242.3952
+        ],
+        "grid_id": "matplotlib-grid-1",
+        "row_start": 0,
+        "row_stop": 1,
+        "col_start": 1,
+        "col_stop": 2,
+        "panel_label": "b",
+        "panel_label_anchor_pt": [
+          338.22824873949577,
+          245.39520000000002
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "inferred-row-1",
+        "panels": [
+          "a",
+          "b"
+        ]
+      }
+    ],
+    "column_groups": [],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "a",
+          "b"
+        ],
+        "checks": [
+          "panel-width"
+        ],
+        "reason": "ranked bar chart is wider than the scatter by design"
+      }
+    ]
+  },
+  "findings": []
+}
