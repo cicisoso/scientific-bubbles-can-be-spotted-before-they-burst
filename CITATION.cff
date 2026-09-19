@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Code and data for: Scientific bubbles can be spotted before they burst"
+version: 1.0.0
+date-released: 2026-09-19
+doi: 10.5281/zenodo.22840160
+repository-code: https://github.com/cicisoso/scientific-bubbles-can-be-spotted-before-they-burst
+license: MIT
+authors:
+  - family-names: Liu
+    given-names: Hao
+    email: liuhao@zfc.edu.cn
+    affiliation: School of Information Technology, Zhejiang Financial College
+  - family-names: Zong
+    given-names: Xiaojie
+    affiliation: School of Information Technology, Zhejiang Financial College
+  - family-names: Chen
+    given-names: Jie
+    affiliation: School of Information Technology, Zhejiang Financial College
+  - family-names: Xiong
+    given-names: Jianyu
+    affiliation: School of Information Technology, Zhejiang Financial College
+keywords:
+  - science of science
+  - scientometrics
+  - research booms
+  - bubbles
+  - OpenAlex

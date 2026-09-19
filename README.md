@@ -6,6 +6,10 @@ research topics, 1980–2025, built on the OpenAlex snapshot of 26 June 2026 (31
 Hao Liu (corresponding author, liuhao@zfc.edu.cn), Xiaojie Zong, Jie Chen, Jianyu Xiong.
 School of Information Technology, Zhejiang Financial College, Hangzhou, China.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22840160.svg)](https://doi.org/10.5281/zenodo.22840160)
+
+Archived release: v1.0.0, Zenodo doi:[10.5281/zenodo.22840160](https://doi.org/10.5281/zenodo.22840160) (concept DOI [10.5281/zenodo.22840159](https://doi.org/10.5281/zenodo.22840159) always resolves to the latest version).
+
 ## What the study does
 
 * A **boom** is a year in which a topic's share of the papers published in a *constant panel of journals* (journals with at
@@ -87,3 +91,9 @@ scripts is importable and skips it with a warning otherwise; the exported figure
 ## License
 
 Code: MIT. Derived data: CC0 1.0 (see `LICENSE`).
+
+## How to cite
+
+Liu, H., Zong, X., Chen, J., Xiong, J. (2026). Code and data for "Scientific bubbles can be spotted before they burst" (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22840160
+
+A `CITATION.cff` file is included for reference managers and GitHub's citation widget.

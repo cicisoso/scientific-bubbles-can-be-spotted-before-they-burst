@@ -8,4 +8,6 @@ Headline numbers: 878 booms in 832 topics (1980-2025); 350 evaluable (peak <= 20
 
 Known caveats: 29 booms of 2011-2014 are carried by Trans Tech Publications proceedings serials (66% crash); results hold excluding all 58 proceedings-led booms (crash 40%, AUC 0.83). Venue concentration is treated as a feature. Awards coverage is uneven across decades.
 
-Before upload: funding statement; AAAS competing-interests forms; Zenodo deposit; confirm reviewer suggestions.
+Archive: Zenodo doi:10.5281/zenodo.22840160 (v1.0.0 of the GitHub repository https://github.com/cicisoso/scientific-bubbles-can-be-spotted-before-they-burst; concept DOI 10.5281/zenodo.22840159).
+
+Before upload: funding statement; AAAS competing-interests forms; confirm reviewer suggestions.

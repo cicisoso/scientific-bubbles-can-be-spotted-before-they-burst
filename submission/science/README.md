@@ -16,6 +16,6 @@ Built 19 September 2026 by scripts/08_package.py. Authors: Hao Liu (correspondin
 | suggested_reviewers.md | Suggested referees (contact details to confirm) |
 | submission_checklist.md | Requirement-by-requirement status |
 
-Word counts: abstract 124; text 3,613; total including references and legends 5,305; 29 references in the main text.
+Word counts: abstract 124; text 3,613; total including references and legends 5,293; 29 references in the main text.
 
-Before upload: complete the funding statement; complete the AAAS competing-interests forms; deposit code and derived data (Zenodo) and paste the link into the data availability statement; confirm reviewer suggestions.
+Before upload: complete the funding statement; complete the AAAS competing-interests forms; confirm reviewer suggestions. Code and derived data are archived on Zenodo (doi:10.5281/zenodo.22840160) and at https://github.com/cicisoso/scientific-bubbles-can-be-spotted-before-they-burst.

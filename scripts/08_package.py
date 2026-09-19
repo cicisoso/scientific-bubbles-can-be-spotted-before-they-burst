@@ -139,7 +139,7 @@ rows=[('Title',f'<=135 characters; declarative',f'"{title}" ({len(title)} charac
  ('Double spacing and line numbers','required at submission','main.pdf and main.docx','OK'),
  ('Cover letter','customary; suggested and excluded reviewers; related manuscripts','cover_letter.md/.docx','OK'),
  ('Competing interests','AAAS form for all authors at submission','none; complete the form online','to do'),
- ('Data and materials availability','statement in Acknowledgments; deposit on publication','statement present; Zenodo deposit to be made','to do'),
+ ('Data and materials availability','statement in Acknowledgments; deposit on publication','statement present; code and derived data archived on Zenodo (doi:10.5281/zenodo.22840160) and on GitHub','OK'),
  ('AI use','disclosed','disclosed in Acknowledgments','OK'),
  ('Funding','statement in Acknowledgments','[to complete]','to do')]
 ck=[f'# Submission checklist: Science Research Article ({DATE})','','Requirements digest: docs/SCIENCE_REQUIREMENTS.md (verify the live Science author pages before upload; they block automated fetches).','','| Requirement | Limit / policy | This package | Status |','|---|---|---|---|']+[f'| {a} | {b} | {c} | {d} |' for a,b,c,d in rows]
@@ -164,6 +164,6 @@ Built {DATE} by scripts/08_package.py. Authors: Hao Liu (corresponding, liuhao@z
 
 Word counts: abstract {W['abstract']}; text {W['main_text']:,}; total including references and legends {W['total_incl_refs_captions']:,}; {W['refs_main']} references in the main text.
 
-Before upload: complete the funding statement; complete the AAAS competing-interests forms; deposit code and derived data (Zenodo) and paste the link into the data availability statement; confirm reviewer suggestions.
+Before upload: complete the funding statement; complete the AAAS competing-interests forms; confirm reviewer suggestions. Code and derived data are archived on Zenodo (doi:10.5281/zenodo.22840160) and at https://github.com/cicisoso/scientific-bubbles-can-be-spotted-before-they-burst.
 """
 open(os.path.join(OUT,'README.md'),'w').write(readme); log('package written to',OUT)
