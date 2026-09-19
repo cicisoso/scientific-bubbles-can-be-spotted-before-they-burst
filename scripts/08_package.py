@@ -63,6 +63,22 @@ if rc==0:
 # copy package files
 M=os.path.join(OUT,'manuscript'); os.makedirs(M,exist_ok=True)
 for src,dst in (('main.pdf','main.pdf'),('main.docx','main.docx'),('supplement.pdf','supplementary_materials.pdf')): shutil.copy(src,os.path.join(M,dst))
+# combined PDF for the submission system (main manuscript with figures, then the Supplementary Materials), with bookmarks
+from pypdf import PdfReader, PdfWriter
+w=PdfWriter(); n_main=0; fig_page=None
+for i,src in enumerate(('main.pdf','supplement.pdf')):
+    r=PdfReader(src); start=len(w.pages)
+    for pg in r.pages: w.add_page(pg)
+    if i==0:
+        n_main=len(r.pages)
+        for k,pg in enumerate(r.pages):
+            if fig_page is None and (pg.extract_text() or '').lstrip().startswith('Figures'): fig_page=k
+        w.add_outline_item('Main manuscript',0)
+        if fig_page is not None: w.add_outline_item('Figures',fig_page)
+    else: w.add_outline_item('Supplementary Materials',start)
+w.add_metadata({'/Title':title+' (combined manuscript and supplementary materials)','/Author':'Hao Liu, Xiaojie Zong, Jie Chen, Jianyu Xiong'})
+with open(os.path.join(M,'combined.pdf'),'wb') as fh: w.write(fh)
+log('combined.pdf','ok', f'({n_main} + {len(w.pages)-n_main} pages)')
 SRC=os.path.join(M,'latex_source'); shutil.rmtree(SRC,ignore_errors=True); os.makedirs(os.path.join(SRC,'sections'))
 for f in ('main.tex','supplement.tex','preamble.tex','title.tex','macros.tex','references.tex','references_sm.tex','make_numbers.py','make_bib.py','make_sm_tables.py','wordcount.py'):
     if os.path.exists(f): shutil.copy(f,SRC)
@@ -153,6 +169,7 @@ Built {DATE} by scripts/08_package.py. Authors: Hao Liu (corresponding, liuhao@z
 | manuscript/main.pdf | Research Article (title page with one-sentence summary and abstract; Introduction, Results, Discussion, Materials and Methods, References and Notes, Acknowledgments; figures with legends at the end); double-spaced, line-numbered |
 | manuscript/main.docx | Word version (pandoc; Science reference style) |
 | manuscript/supplementary_materials.pdf | Materials and Methods, Supplementary Text, figs. S1-S8, tables S1-S6, references |
+| manuscript/combined.pdf | Combined PDF for the submission system: main manuscript with figures followed by the Supplementary Materials (bookmarked) |
 | manuscript/latex_source/ | LaTeX source; every number is a macro generated from results/summary.json |
 | figures/ | Fig1-Fig5 (PDF vector, 175 mm; PNG previews) |
 | supplementary_figures/ | figs. S1-S8 |
